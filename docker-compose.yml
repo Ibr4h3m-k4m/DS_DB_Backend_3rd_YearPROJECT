@@ -1,0 +1,30 @@
+version: '3.10'
+services:
+  web:
+    build: .
+    command: ./wait-for-it.sh mysql:3366 -- ./docker-entrypoint.sh
+    ports:
+      - 8000:8000
+    depends_on:
+      - mysql
+    restart: on-failure
+    volumes:
+      - .:/app
+  mysql:
+    image: mysql:8.0
+    ports:
+      - 3366:3306
+    restart: always
+    environment:
+      - MYSQL_DATABASE=backend
+      - MYSQL_ROOT_PASSWORD=spartaamir12342002
+    volumes:
+      - mysqldata:/var/lib/mysql    
+  smtp4dev:
+    image: rnwood/smtp4dev:v3
+    ports:
+      - 5000:80
+      - 25:25
+    restart: always
+volumes:
+  mysqldata:
