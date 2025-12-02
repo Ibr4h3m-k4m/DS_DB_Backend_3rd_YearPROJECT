@@ -28,10 +28,10 @@ Notes:
     - I'll be adding a "seed.sql" file to the project very soon that will be executed by Docker at runtime ,
     the purpose of it is to populate the database automatically , especially the users table , so , i'll be updating it every time we finish
     from an increment .
-    - you need to clone this repository using the following command "git clone https://github.com/DaoudiAmir/DS-DB_backend.git" 
+    - you need to clone this repository using the following command "git clone https://github.com/Ibr4h3m-k4m/DS-DB_backend.git" 
     - we're gonna be needing a new repository that combines both the front and the backend.
     
 Important Note : to clone the repository properly and not encounter any issues running the project with docker, use this commande :
-                 "git clone https://github.com/DaoudiAmir/DS-DB_backend.git --config core.autocrlf=input"
+                 "git clone https://github.com/Ibr4h3m-k4m/DS-DB_backend.git --config core.autocrlf=input"
 
 to start the server using waitress : waitress-serve --listen=*:8000 dsdb.wsgi:application
