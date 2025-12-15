@@ -413,13 +413,19 @@ docker-compose up -d --build
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## 👤 Authors
 
 **Ibrahim Kamraoui**
 
 - GitHub: [@Ibr4h3m-k4m](https://github.com/Ibr4h3m-k4m)
 - LinkedIn: [Ibrahim Kamraoui](https://linkedin.com/in/ibrahim-kamraoui-b25721248)
 - Email: brahim.kamraoui@gmail.com
+
+**Daoudi Amir**
+
+- GitHub: [@DaoudiAmir]([https://github.com/Ibr4h3m-k4m](https://github.com/DaoudiAmir))
+- LinkedIn: [Amir Salah Eddine Daoudi](https://www.linkedin.com/in/amir-salah-eddine-daoudi/)
+- Email: daoudiamirsalaheddine@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -442,11 +448,5 @@ This project was developed as part of the academic curriculum and demonstrates:
 
 **Note**: This project is for educational purposes. For production deployment, ensure proper security measures, environment variable management, and performance optimization.
 
-## 🔗 Related Projects
 
-- [Weather API Project](https://github.com/Ibr4h3m-k4m/Weather-open-meteo-API-Project)
-- [FastAPI Learning Roadmap](https://github.com/Ibr4h3m-k4m/FastApiRoadMapWithGpt)
-
----
-
-Made with ❤️ for academic excellence
+Made with ❤️ hard work and endless hours of coding and sleepless nights for academic excellence
